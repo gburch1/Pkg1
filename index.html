@@ -1,2 +1,53 @@
-<h1>It Really Works Now!</h1>
-
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Packaging Generator</title>
+  <style>
+    :root { --primary: #2c7a7b; --accent: #4fd1c5; font-family: sans-serif; }
+    header { background: var(--primary); color: white; padding: 2rem; text-align: center; }
+    section { padding: 2rem; max-width: 800px; margin: auto; }
+    button { background: var(--accent); border: none; padding: 0.75rem 1.5rem; color: white; font-size: 1rem; cursor: pointer; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    footer { background: #f7fafc; padding: 1rem; text-align: center; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Packaging Generator</h1>
+    <p>Instant dielines, sustainability score & sourcing insights</p>
+    <button onclick="location.href='#tool'">Try It Now</button>
+  </header>
+  <section id="how-it-works">
+    <h2>How It Works</h2>
+    <p>1. Enter product dimensions & weight<br>2. See packaging design, eco-score, and cost estimate<br>3. Download and get expert advice</p>
+  </section>
+  <section id="features" class="features">
+    <div><h3>✨ Fast Dielines</h3><p>PDF or SVG ready to manufacture.</p></div>
+    <div><h3>🌱 Sustainability Score</h3><p>Materials ranked by recyclability & CO₂ impact.</p></div>
+    <div><h3>📦 Sourcing Estimator</h3><p>Unit cost estimate and supplier suggestions.</p></div>
+  </section>
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <ul>
+      <li><strong>Free:</strong> 1 dieline + eco‑score</li>
+      <li><strong>Pro:</strong> Unlimited dielines, sourcing estimator — $49/project or $149/month</li>
+      <li><strong>Enterprise:</strong> API access, team portal — $499+/month</li>
+    </ul>
+    <button onclick="location.href='#tool'">Get Started</button>
+  </section>
+  <section id="tool">
+    <h2>Live Tool (Coming Soon)</h2>
+    <p>This is where the product-to-pack input form and instant report will appear.</p>
+  </section>
+  <section id="about">
+    <h2>About</h2>
+    <p>Crafted by your packaging engineering team powered by AI.</p>
+  </section>
+  <footer>
+    <p>© 2025 Your Packaging Firm • <a href="mailto:hello@example.com">hello@example.com</a></p>
+  </footer>
+</body>
+</html>
